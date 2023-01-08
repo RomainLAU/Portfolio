@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+strong {
+  font-weight: bold;
+  color: rgba(205, 89, 143, 0.7215686275);
+}
