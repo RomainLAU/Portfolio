@@ -7,11 +7,4 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/axios', '@nuxtjs/proxy'],
-  axios: {
-    proxy: true,
-  },
-  proxy: {
-    '/': 'http://localhost:8000',
-  },
 });

@@ -10,6 +10,6 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "strictPropertyInitialization": false,
-    "types": ["@nuxtjs/axios"]
+    "types": ["@nuxt/types", "@nuxtjs/axios"]
   }
 }
